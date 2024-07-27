@@ -1,0 +1,46 @@
+
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    height: 40px;
+    background-color: bisque;
+
+}
+.barra a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: rgb(107, 3, 3); /* Mantiene el color del enlace heredado de su padre, opcional */
+}
+
+#productosContainer{
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 130px;
+    width: 120px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: brown;
+    border-radius: 15px;
+}
+
+.card a{
+    list-style: none;
+    text-decoration: none;
+    color:beige;
+}
+.detalleContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
